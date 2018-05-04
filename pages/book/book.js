@@ -63,6 +63,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+    return {
+      title: this.data.title + ' - ' + this.data.author,
+      path: '/pages/book/book?title=' + this.data.title + '&author=' + this.data.author + '&cover=' + this.data.image
+    }
   }
 })

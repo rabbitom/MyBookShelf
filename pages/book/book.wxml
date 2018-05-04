@@ -6,6 +6,6 @@
   <view class='book-info-actions'>
     <button>收藏</button>
     <button>笔记</button>
-    <button>分享</button>
+    <button open-type='share'>分享</button>
   </view>
 </view>
