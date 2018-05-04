@@ -1,0 +1,11 @@
+<!--pages/book/book.wxml-->
+<view class='container book-info'>
+  <image src='{{cover}}' mode='aspectFit'></image>
+  <text class='book-info-title'>《{{title}}》</text>
+  <text>作者：{{author}}</text>
+  <view class='book-info-actions'>
+    <button>收藏</button>
+    <button>笔记</button>
+    <button>分享</button>
+  </view>
+</view>

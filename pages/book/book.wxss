@@ -1,0 +1,25 @@
+/* pages/book/book.wxss */
+image {
+  width: 80%;
+  height: 360px;
+}
+
+.book-info {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  height: 100%;
+}
+
+.book-info-title {
+  font-size: 20px;
+}
+
+.book-info-actions {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-bottom: 10px;
+}
